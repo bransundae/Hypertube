@@ -1,0 +1,14 @@
+<div class="carousel-container">
+    <ngb-carousel *ngFor="let row of getImageMatrix(4)">
+      <ng-template ngbSlide *ngFor="let image of row">
+          <div class="picsum-img-wrapper">
+            <img [src]="image.url" [alt]="image.name">
+          </div>
+
+          <div class="carousel-caption">
+            <h3>{{image.name}}</h3>
+            <p>{{image.description}}</p>
+          </div>
+      </ng-template>
+    </ngb-carousel>
+</div>

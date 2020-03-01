@@ -1,0 +1,18 @@
+.header-container {
+  width: 100%;
+  position: fixed;
+  margin: 0 auto;
+  background-color: #80553D67;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:active, a:hover, a:focus {
+  color: #F64C72;
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}

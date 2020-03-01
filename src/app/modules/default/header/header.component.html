@@ -1,0 +1,28 @@
+  <div class="header-container row pb-3 pt-3">
+
+    <div class="col col-lg-2">
+      <h3>QuickStream</h3>
+    </div>
+
+    <div class="col col-lg-6">
+
+      <nav ngbNav #nav="ngbNav">
+        <ng-container ngbNavItem>
+          <a ngbNavLink>Home</a>
+        </ng-container>
+
+        <ng-container ngbNavItem>
+          <a ngbNavLink>Latest</a>
+        </ng-container>
+
+        <ng-container ngbNavItem>
+          <a ngbNavLink>My Shows</a>
+        </ng-container>
+      </nav>
+
+    </div>
+
+  </div>
+
+
+<div [ngbNavOutlet]="nav"></div>

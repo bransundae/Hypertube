@@ -1,0 +1,9 @@
+.carousel-container {
+  width: 100%;
+  min-height: 50px;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+}
